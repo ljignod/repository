@@ -1,0 +1,265 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 18, 2017, 6:04:58 PM
+    Author     : Ognjen
+*/
+
+/*               OSNOVA                */
+body{
+        background: #ffffff;
+        margin: 1px;
+        
+}
+#reg {
+    float: right;
+    width: 300px;
+}
+#wrapper {
+        width:960px;
+	padding: 15px;
+	margin:30px auto;
+	
+}
+
+#header {
+        padding-bottom: 10px;
+        margin-bottom: 0px;
+        overflow: hidden;
+        text-align: center;
+        
+}
+
+#logo {
+        padding-left: 10px;
+        float: left;
+        width: 300px;
+        height: 104px;
+}
+
+#nav {
+        background-color: #CBCFD7;
+        height:40px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+}
+
+#nav ul {
+	margin: 0;
+        padding-right: 30px;
+	list-style: none;
+}
+#nav ul li {
+        
+        font-size: 20px;
+	float: right;
+        padding-left: 20px;
+        margin-top: 8px;
+        font-weight: bold;
+}
+#nav ul li a:link,
+#nav ul li a:visited {
+	color: #0645AD;
+	text-decoration: none;
+}
+#nav ul li a:hover {
+	color: navy;
+}
+#nav ul li a:active {
+	color: #000000;
+}
+#marke {
+        float:left;
+        width:220px;
+        border-right: solid #CBCFD7 thin;
+        margin-bottom: 20px;
+}
+
+#najtrazeniji {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 0px;
+        color: black;
+        font-weight: bold;
+}
+#footer {
+        background-color: #CBCFD7;
+        height:40px;
+        border-radius: 20px;
+        clear:both;
+        text-align: center;
+        padding-top: 5px;
+}
+/*               OSNOVA                */
+
+
+#dodaj1 {
+    float: left;
+    width: 280px;
+    padding: 5px;
+    margin: 9px;
+}
+#dodaj1 select,input {
+    
+    padding: 5px;
+    margin: 9px 0px 9px 0px;
+    height: 30px;
+}
+#dodaj2 {
+    float:right;
+    width:300px;
+    padding-top: 11px;
+    
+}
+
+#dodaj2 input,textarea {
+    height: 30px;
+    margin: 9px 0px 9px 0px;
+}
+#btnok {
+    width: 300px;
+    padding: 0;
+    font-size: 20px;
+}
+#btnlog {
+    padding: 0px 16px;
+}
+.alert {
+    width: 200px;
+    margin: 50px 0 0 200px;
+}
+#unesi {
+    margin:0 0 40px 440px;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+}
+#alert {
+    margin: 50px 0 0 200px;
+}
+.auto {
+    position: relative;
+    float: left;
+    margin: 0 5px 10px 5px;
+}
+h4 {
+    text-shadow: 1px 1px #000;
+    position: absolute;
+    top: -10px;
+    right: 0px;
+    background-color: rgba(200, 70, 7, 0.5);
+    padding: 2px 5px 2px 12px;
+    border-radius: 25px 4px 4px 25px;
+}
+h5 {
+    position: absolute;
+    text-shadow: 1px 1px #000;
+    background-color: rgba(2, 55, 70, 0.5);
+    bottom: -10px;
+    left: 0px;
+    padding: 2px 16px 2px 10px;
+    border-radius: 4px 25px 25px 4px;
+    
+}
+
+#detalji1 {
+    float: left;
+    width: 440px;
+    margin-left: 10px;
+    margin-right: 40px;
+    position: relative;
+}
+
+#detalji2 {
+    position: relative;
+    float: left;
+    margin-left: 0px;
+}
+#h3cena {
+    text-shadow: 1px 1px #000;
+    position: absolute;
+    background-color: rgba(200, 70, 7, 0.8);
+    padding: 10px;
+    border-radius:8px 25px 25px 0px;
+    top: -20px;
+}
+#h3detalji {
+    position: absolute;
+    text-shadow: 1px 1px #000;
+    background-color: rgba(2, 55, 70, 0.8);
+    bottom: -66px;
+    left: 0px;
+    padding: 2px 16px 2px 10px;
+    border-radius: 0px 25px 25px 8px;
+}
+#detalji3 {
+    clear: left;
+    margin-top: 60px;
+}
+
+#reg1 {
+    width: 400px;
+    float: left;
+    padding: 5px;
+    padding-left: 20px;
+    margin: 9px;    
+}
+#reg1 input {
+    margin-bottom: 10px;
+}
+#btnok1 {
+    margin-left: 80px;
+    padding: 0px;
+    width: 200px;
+}
+
+
+
+
+
+
+
+/*         SEARCH          */
+#custom-search-input {
+        margin:0;
+        margin-top: 36px;
+        padding: 0;
+    }
+ 
+    #custom-search-input .search-query {
+        padding-right: 3px;
+        padding-right: 4px \9;
+        padding-left: 3px;
+        padding-left: 4px \9;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+ 
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 4px 25px 25px 4px;
+    }
+ 
+    #custom-search-input button {
+        border: 0;
+        background: none;
+        /** belows styles are working good */
+        padding: 2px 5px;
+        margin-top: 2px;
+        position: relative;
+        left: -28px;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        color:#D9230F;
+    }
+ 
+    .search-query:focus + button {
+        z-index: 3;   
+    }
+
+/*         SEARCH          */
